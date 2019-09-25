@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'ornament';
+    src: url('../fonts/bergamot_ornaments-webfont.woff2') format('woff2'), url('..fonts/bergamot_ornaments-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Start header  div */
+
+.container {
+    max-width: 100vw;
+    color: white;
+    margin: 0px;
+    height: auto;
+    top: 0px;
+}
+
+header {
+    background-image: url(../img/background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.background-light {
+    background-color: rgba(38, 38, 39, 0.5);
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    max-width: 20%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: beige;
+    font-variant: small-caps;
+}
+
+.menu span {
+    color: beige;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.center {
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+
+.center h1 {
+    font-size: 600%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.center hr {
+    border-top: 2px dashed white;
+    width: 10%;
+}
+
+.center p {
+    font-size: 1.5em;
+}
+
+.our-menu {
+    background-color: rgba(38, 38, 39, 0.5);
+    font-variant: small-caps;
+    display: inline;
+    padding: 10px 20px;
+}
+
+.our-menu a {
+    color: white;
+    font-weight: bold;
+}
+
+/* End header  div */
+
+/* Start Section  tastes */
+
+.tastes {
+    background-color: white;
+    width: auto;
+    margin: 50px;
+    text-align: center;
+}
+
+.tastes h6 {
+    color: brown;
+}
+
+.quote:before {
+    content: open-quote;
+}
+
+.quote:after {
+    content: close-quote;
+}
+
+/* End Section  tastes */
+
+/* Start Section  pancakes */
+
+.pancakes {
+    background-image: url(../img/background-image-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.margin {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img-red {
+    margin-top: 9%;
+}
+
+.season {
+    margin-top: 9%;
+    background-color: white;
+    /* padding: 4%; */
+    position: relative;
+}
+
+.season h4, h6 {
+    text-align: center;
+}
+
+.windmill {
+    background-image: url(../img/Vektor-Smartobjekt\ windmill.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.windmill a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.windmill a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.ready {
+    background-image: url(../img/ready-in-bg.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: -50px;
+    left: 300px;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+.ready h6 {
+    text-align: center;
+    font-variant: small-caps;
+    color: rgb(68, 14, 14);
+    padding: 10px;
+}
+
+.ready h3 {
+    text-align: center;
+    color: rgb(136, 127, 74);
+    font-size: 50px;
+}
+
+.ready p {
+    text-align: center;
+    color: black;
+}
+
+/* End Section  pancakes */
+
+/* Start Section  Breakfast */
+
+.breakfast {
+    background-image: url(../img/background-image-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.breakfast h1 {
+    color: white;
+}
+
+.breakfast h6 {
+    color: rgb(71, 75, 56)
+}
+
+.breakfast h4 {
+    color: white;
+}
+
+.breakfast p {
+    color: gray;
+}
+
+.breakfast h3 {
+    color: rgb(104, 109, 86);
+}
+
+.ornament-large {
+    font-family: 'ornament';
+    text-align: center;
+    font-size: 7rem;
+    color: rgb(75, 94, 107);
+}
+
+.flair {
+    background-image: url(../img/note.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    ;
+}
+
+/* End Section  Breakfast */
+
+/* Start Section  Sandwich */
+
+.container-2 {
+    background-color: rgb(196, 193, 193);
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.jibarito {
+    background-image: url(../img/Vektor-Smartobjekt.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: auto;
+}
+
+.jibarito h2 {
+    padding-top: 8%;
+}
+
+.ebene {
+    background-image: url(../img/Ebene\ 11.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.background-light2 {
+    background-color: rgba(160, 154, 154, 0.5);
+    height: 100vh;
+}
+
+.prep {
+    height: 33.333%;
+}
+
+.cook {
+    height: 33.333%;
+}
+
+.ready-2 {
+    height: 33.333%;
+    background-image: url(../img/ready-in-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: 0px;
+}
+
+/* End Section  Sandwich */
+
+/* Start footer  div */
+
+.menu-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-2 {
+    border-top: 1px solid black;
+    width: auto;
+}
+
+.menu-2 a {
+    text-decoration: none;
+    color: black;
+    font-variant: small-caps;
+}
+
+/* End footer  div */
